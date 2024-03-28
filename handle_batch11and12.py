@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-##筛选batch11中时间为2023-04-01到2023-04-30的数据
+##筛选batch11中数据
 def filter_csv_files(folder_path, start_date, end_date):
     # 获取文件夹中所有的 CSV 文件
     csv_files = [file for file in os.listdir(folder_path) if file.endswith('.csv')]
